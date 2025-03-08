@@ -1,0 +1,22 @@
+.header, .task {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-div{
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+input[type='checkbox']:checked +label {
+    text-decoration: line-through;
+}
