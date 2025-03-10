@@ -20,3 +20,8 @@ ul {
 input[type='checkbox']:checked +label {
     text-decoration: line-through;
 }
+
+li{
+    display: flex;
+    gap: 10px;
+}
